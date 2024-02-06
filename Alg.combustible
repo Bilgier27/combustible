@@ -1,0 +1,25 @@
+Algoritmo Alg_vehiculo
+	//Elaborar algoritmo que permita establecer la autonomia de un vehiuculo teniendo en cuenta su especificacion tecnica
+	
+	// Autonomia del vehiculo = 35 Km (1 tanque de combustible)
+	//Distancia = ? -> 870 Km
+	
+	cons_valorcombustible = 16000
+	
+	//Total_tanques = distancia / autonomia
+	//Tanques de combustible consumidos = ?
+
+	Escribir "Ingrese distancia"
+	Leer Var_distanciaInt
+	Escribir "Ingrese autonomia"
+	Leer Var_autonomiaInt
+	Escribir "Ingrese valor del combustible"
+	Leer cons_valorcInt
+	Escribir "Ingrese tanques consumidos"
+	Leer Var_tanquesInt
+	Int_valorcInt = (var_distanciaInt * 870) / (Var_autonomiaInt * 35)
+	Escribir "Ingrese total combustible es: ", Int_valorcInt
+
+	
+	
+FinAlgoritmo
